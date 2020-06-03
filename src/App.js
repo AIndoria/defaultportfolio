@@ -5,6 +5,8 @@ import Avatar from "@material-ui/core/Avatar";
 import Indoria from "./img/Indoria.png";
 import AppBar from "./Appbar";
 
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 function App() {
   return (
     <div className="App">
@@ -14,21 +16,36 @@ function App() {
       <span className="tiltedEffect"></span>
       <span className="tiltedEffect"></span>
       <div className="intro">
+        <div className="intro_Circular">
+          <CircularProgress
+            style={{ height: "60px", width: "60px" }}
+            color="secondary"
+          ></CircularProgress>
+        </div>
         <div className="intro_Avatar">
           <Avatar
+            className="avatar_logo"
             alt="Abe Indoria"
             src={Indoria}
-            style={{ height: "50px", width: "50px" }}
+            style={{
+              height: "50px",
+              width: "50px",
+            }}
           />
         </div>
         <div className="intro__Title">
           <div>Abe Indoria</div>
         </div>
         <div className="intro__Subtitle">
-          <p>
+          <p className="longIntro">
             I am a Frontend developer specializing in ReactJS. I have 3+ years
-            of experience with UI/UX design and website development. I read, and
-            I am fascinated by ancient Roman history.
+            of experience with UI/UX design and website development. I read,
+            write, and I am fascinated by ancient Roman history. Feel free to
+            contact me using the footer below.
+          </p>
+          <p className="shortIntro">
+            I am a Frontend developer specializing in ReactJS. I have 3+ years
+            of experience with UI/UX design and website development.
           </p>
         </div>
       </div>
@@ -47,7 +64,13 @@ function App() {
         </div>
         <div className="card">
           {/* <h2>ADS</h2> */}
-          <i className="fas fa-arrow-right"></i>
+          <a
+            href="https://github.com/AIndoria/Autonomous-Dependent-States"
+            alt="Github link for Autonomous Dependent States"
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
+
           <p>Automonous Dependent States</p>
           <div className="pic"></div>
           <div className="social">
@@ -81,7 +104,13 @@ function App() {
         </div>
         <div className="card card2">
           {/* <h2>Felicity</h2> */}
-          <i className="fas fa-arrow-right"></i>
+          <a
+            href="https://blog.aindoria.com/felicity"
+            alt="Website link for Felicity"
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
+
           <p>Felicity</p>
           <div className="pic"></div>
 
@@ -116,13 +145,18 @@ function App() {
         </div>
         <div className="card card3">
           {/* <h2>Felicity</h2> */}
-          <i className="fas fa-arrow-right"></i>
+          <a
+            href="https://blog.aindoria.com/ResPublicaRomana"
+            alt="Website link for Res Publica Romana"
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
           <p>Res Publica Romana</p>
           <div className="pic"></div>
 
           <div className="social">
             <a
-              href="https://blog.aindoria.com/spqr"
+              href="https://blog.aindoria.com/ResPublicaRomana"
               alt="Website link for Res Publica Romana"
             >
               <i className="fab fa-edge fa-2x fab-darken"></i>
@@ -144,7 +178,12 @@ function App() {
         </div>
         <div className="card card4">
           {/* <h2>Felicity</h2> */}
-          <i className="fas fa-arrow-right"></i>
+          <a
+            href="https://blog.aindoria.com/wikipedia-client/"
+            alt="Website link for Wikipedia Client"
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
           <p>Wikipedia Client</p>
           <div className="pic"></div>
 
@@ -173,7 +212,13 @@ function App() {
         </div>
         <div className="card card5">
           {/* <h2>Felicity</h2> */}
-          <i className="fas fa-arrow-right"></i>
+          <a
+            href="https://github.com/AIndoria/is-iss-over-you/"
+            alt="Github link for ISS Client"
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
+
           <p>Is ISS Over You</p>
           <div className="pic"></div>
 
