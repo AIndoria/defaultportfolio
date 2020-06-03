@@ -64,18 +64,14 @@ export default function BottomAppBar() {
     <React.Fragment>
       <CssBaseline />
       <AppBar
-        position="sticky"
+        position="fixed"
         color="primary"
         className={classes.appBar}
         style={{ textDecoration: "none" }}
       >
         <Toolbar>
           <IconButton edge="start" color="inherit" aria-label="Github">
-            <Link
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/aindoria"
-            >
+            <Link target="_blank" href="https://github.com/aindoria">
               <GitIcon />
             </Link>
           </IconButton>
@@ -120,6 +116,7 @@ export default function BottomAppBar() {
           </IconButton>
         </Toolbar>
       </AppBar>
+      <Toolbar />
     </React.Fragment>
   );
 }
