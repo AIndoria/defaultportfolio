@@ -33,6 +33,11 @@ function App() {
         </div>
       </div>
       <div className="container">
+        <span className="tiltedEffect_container"></span>
+        <span className="tiltedEffect_container"></span>
+        <span className="tiltedEffect_container"></span>
+        <span className="tiltedEffect_container"></span>
+        <span className="tiltedEffect_container"></span>
         <div className="intro-p1">
           <p>
             Autonomous Dependent States is a popular mod for Paradox grand

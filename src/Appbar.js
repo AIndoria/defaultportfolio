@@ -71,7 +71,13 @@ export default function BottomAppBar() {
       >
         <Toolbar>
           <IconButton edge="start" color="inherit" aria-label="Github">
-            <Link target="_blank" href="https://github.com/aindoria">
+            <Link
+              href="https://github.com/aindoria"
+              onClick={function (e) {
+                e.preventDefault();
+                window.location = "https://github.com/aindoria";
+              }}
+            >
               <GitIcon />
             </Link>
           </IconButton>
@@ -80,6 +86,10 @@ export default function BottomAppBar() {
               target="_blank"
               rel="noreferrer"
               href="https://linkedin.com/in/aindoria"
+              onClick={function (e) {
+                e.preventDefault();
+                window.location = "https://linkedin.com/in/aindoria";
+              }}
             >
               <LinkedInIcon />
             </Link>
@@ -90,6 +100,10 @@ export default function BottomAppBar() {
               target="_blank"
               href="mailto:indoria+portfolio@aindoria.com"
               data-rel="external"
+              onClick={function (e) {
+                e.preventDefault();
+                window.location = "mailto:indoria+portfolio@aindoria.com";
+              }}
             >
               <MailIcon />
             </Link>
@@ -100,6 +114,10 @@ export default function BottomAppBar() {
               target="_blank"
               rel="noreferrer"
               href="https://instagram.com/aindoria"
+              onClick={function (e) {
+                e.preventDefault();
+                window.location = "https://instagram.com/aindoria";
+              }}
             >
               <InstaIcon />
             </Link>
@@ -109,7 +127,10 @@ export default function BottomAppBar() {
               target="_blank"
               rel="noreferrer"
               href="https://blog.aindoria.com"
-              onClick={preventDefault}
+              onClick={function (e) {
+                e.preventDefault();
+                window.location = "https://blog.aindoria.com";
+              }}
             >
               <WebIcon />
             </Link>

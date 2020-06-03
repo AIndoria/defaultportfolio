@@ -43,7 +43,13 @@ $padding-long: 3.5rem;
   width: 100%;
   top: 13%;
   right: 10%;
-  background: rgba(129, 198, 246, 0.2);
+  // background: rgba(129, 198, 246, 0.2);
+  background: linear-gradient(
+    150deg,
+    rgba(85, 51, 255, 0.15) 15%,
+    #05d5ff44 70%,
+    #a6ffcb3d 94%
+  );
 }
 .App .tiltedEffect:nth-child(2) {
   // Select the 4th span inside .block
@@ -52,7 +58,81 @@ $padding-long: 3.5rem;
   right: 0%;
   transform: skewY(-35deg);
   transform-origin: 0;
-  background: rgba(129, 198, 246, 0.4);
+  // background: rgba(129, 198, 246, 0.4);
+  background: linear-gradient(
+    150deg,
+    rgba(7, 209, 255, 0.5) 15%,
+    rgba(75, 231, 232, 0.5) 70%,
+    #a6ffcb 94%
+  );
+}
+
+.container .tiltedEffect_container {
+  height: 190px;
+  position: absolute;
+  transform: skewY(-12deg);
+  transform-origin: 0;
+}
+
+.container .tiltedEffect_container:nth-child(4) {
+  // Select the 4th span inside .block
+  width: 33.33333%;
+  bottom: -40%;
+  left: -10%;
+  z-index: -11;
+
+  background: linear-gradient(
+    150deg,
+    rgba(85, 51, 255, 0.027) 15%,
+    #05d5ff3b 70%,
+    #a6ffcb10 94%
+  );
+}
+
+.container .tiltedEffect_container:nth-child(1) {
+  // Select the 4th span inside .block
+  width: 33.33333%;
+  bottom: -70%;
+  right: 0%;
+  z-index: -11;
+
+  background: linear-gradient(
+    150deg,
+    rgba(7, 210, 255, 0.568) 15%,
+    rgba(75, 232, 232, 0.24) 50%,
+    #a6ffcb48 94%
+  );
+}
+.container .tiltedEffect_container:nth-child(2) {
+  // Select the 4th span inside .block
+  width: 100%;
+  bottom: -190%;
+  right: 0%;
+  transform: skewY(-35deg);
+  transform-origin: 0;
+  // background: rgba(129, 198, 246, 0.4);
+  background: linear-gradient(
+    150deg,
+    rgba(252, 254, 255, 0.157) 15%,
+    rgba(202, 236, 236, 0.15) 70%,
+    #a6ffcb 94%
+  );
+}
+
+.container .tiltedEffect_container:nth-child(3) {
+  // Select the 4th span inside .block
+  width: 100%;
+  bottom: -250%;
+  right: 0%;
+  transform: skewY(-35deg);
+  transform-origin: 0;
+  // background: rgba(129, 198, 246, 0.4);
+  background: linear-gradient(
+    150deg,
+    rgba(166, 255, 203, 1) 15%,
+    rgba(202, 236, 236, 0.15) 70%,
+    rgba(181, 207, 192, 0.198) 94%
+  );
 }
 
 .intro {
@@ -76,6 +156,7 @@ $padding-long: 3.5rem;
   font-size: 5rem;
   z-index: 3;
   color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
   grid-column: title-start/title-end;
   grid-row: title-v-start/title-v-end;
 }
@@ -88,7 +169,8 @@ $padding-long: 3.5rem;
   grid-row: subtitle-start/subtitle-end;
   z-index: 3;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  color: #000036;
   line-height: 1.75rem;
 }
 
@@ -136,6 +218,7 @@ body {
   flex-direction: column;
 
   .card {
+    z-index: 1;
     position: relative;
     width: 375px;
     height: 200px;
@@ -181,7 +264,7 @@ body {
     .fa-arrow-right {
       z-index: 100;
       position: absolute;
-      right: 65px;
+      right: 15px;
       bottom: 5px;
       font-size: 40px;
       cursor: pointer;
