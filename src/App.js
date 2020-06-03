@@ -146,7 +146,7 @@ function App() {
         <div className="card card3">
           {/* <h2>Felicity</h2> */}
           <a
-            href="https://blog.aindoria.com/ResPublicaRomana"
+            href="http://blog.aindoria.com/ResPublicaRomana"
             alt="Website link for Res Publica Romana"
           >
             <i className="fas fa-arrow-right"></i>
