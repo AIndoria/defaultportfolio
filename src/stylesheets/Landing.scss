@@ -244,7 +244,7 @@ body {
       border-radius: 30px;
       cursor: pointer;
       outline: none;
-      transition: all 0.3s ease;
+      transition: transform 0.3s ease;
       mix-blend-mode: hard-light;
 
       i {
@@ -254,8 +254,12 @@ body {
 
     &:hover button {
       transform: scale(16.5);
-      -webkit-transform: scale(16.5);
+
       -ms-transform: scale(16.5);
+      &:not(*:root) {
+        border-radius: 0px;
+        -webkit-transform: scale(4.4, 20);
+      }
     }
 
     &:hover .pic {
