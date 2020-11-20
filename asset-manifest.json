@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e1dc0a2.chunk.css",
-    "main.js": "/static/js/main.3e0d8145.chunk.js",
-    "main.js.map": "/static/js/main.3e0d8145.chunk.js.map",
+    "main.css": "/static/css/main.6efeb715.chunk.css",
+    "main.js": "/static/js/main.28a9838a.chunk.js",
+    "main.js.map": "/static/js/main.28a9838a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55d4d149.js",
     "runtime-main.js.map": "/static/js/runtime-main.55d4d149.js.map",
     "static/js/2.7834cb21.chunk.js": "/static/js/2.7834cb21.chunk.js",
     "static/js/2.7834cb21.chunk.js.map": "/static/js/2.7834cb21.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fa7a65cd1b5a45d887a19f6d52d7ccc3.js": "/precache-manifest.fa7a65cd1b5a45d887a19f6d52d7ccc3.js",
+    "precache-manifest.b864b1580607e9652843028257ad7d81.js": "/precache-manifest.b864b1580607e9652843028257ad7d81.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8e1dc0a2.chunk.css.map": "/static/css/main.8e1dc0a2.chunk.css.map",
+    "static/css/main.6efeb715.chunk.css.map": "/static/css/main.6efeb715.chunk.css.map",
     "static/js/2.7834cb21.chunk.js.LICENSE.txt": "/static/js/2.7834cb21.chunk.js.LICENSE.txt",
     "static/media/Indoria.png": "/static/media/Indoria.f3e7ab4d.png",
     "static/media/Landing.scss": "/static/media/wiki.7a8185c0.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.55d4d149.js",
     "static/js/2.7834cb21.chunk.js",
-    "static/css/main.8e1dc0a2.chunk.css",
-    "static/js/main.3e0d8145.chunk.js"
+    "static/css/main.6efeb715.chunk.css",
+    "static/js/main.28a9838a.chunk.js"
   ]
 }
