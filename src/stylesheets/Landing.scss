@@ -178,7 +178,10 @@ $padding-long: 3.5rem;
   font-weight: 400;
   font-size: 1.25rem;
   color: #000036;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.726);
   line-height: 1.75rem;
+  text-align: center;
 }
 
 .shortIntro {
@@ -600,7 +603,7 @@ body {
   }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 950px) and (max-width: 1299px) {
   .intro__Subtitle {
     height: 100%;
     display: flex;
@@ -612,7 +615,7 @@ body {
     font-size: 1.25rem;
     color: #000036;
     line-height: 1.75rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.726);
     box-shadow: 1px 1px 4px rgba(251, 251, 251, 0.609);
   }
 
@@ -654,7 +657,7 @@ body {
         -ms-transform: scale(20.5);
         @supports (-webkit-appearance: none) {
           border-radius: 0px;
-          -webkit-transform: scale(7.4, 20);
+          -webkit-transform: scale(6.4, 20);
         }
       }
       .social {
@@ -840,7 +843,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1649px) {
   .intro__Subtitle {
     height: 100%;
     display: flex;
@@ -852,7 +855,7 @@ body {
     font-size: 1.25rem;
     color: #000036;
     line-height: 1.75rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.726);
     box-shadow: 1px 1px 4px rgba(251, 251, 251, 0.609);
   }
 
@@ -893,7 +896,7 @@ body {
         -ms-transform: scale(25.5);
         @supports (-webkit-appearance: none) {
           border-radius: 0px;
-          -webkit-transform: scale(10, 20);
+          -webkit-transform: scale(4.8, 20);
         }
       }
       .social {
@@ -1087,7 +1090,7 @@ body {
     font-size: 1.25rem;
     color: #000036;
     line-height: 1.75rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.726);
     box-shadow: 1px 1px 4px rgba(251, 251, 251, 0.609);
   }
 
@@ -1127,7 +1130,7 @@ body {
         -ms-transform: scale(30.5);
         @supports (-webkit-appearance: none) {
           border-radius: 0px;
-          -webkit-transform: scale(15, 30);
+          -webkit-transform: scale(6.4, 30);
         }
       }
 

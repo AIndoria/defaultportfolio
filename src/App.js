@@ -38,14 +38,14 @@ function App() {
         </div>
         <div className="intro__Subtitle">
           <p className="longIntro">
-            I am a Frontend developer specializing in ReactJS. I have 3+ years
-            of experience with UI/UX design and website development. I read,
-            write, and I am fascinated by ancient Roman history. Feel free to
-            contact me using the footer below.
+            I am a Frontend engineer specializing in ReactJS. I have 3+ years of
+            experience with UI/UX design and web development. I read, write, and
+            I am fascinated by ancient Roman history. Feel free to contact me
+            using the footer below.
           </p>
           <p className="shortIntro">
             I am a Frontend developer specializing in ReactJS. I have 3+ years
-            of experience with UI/UX design and website development.
+            of experience with UI/UX design and web development.
           </p>
         </div>
       </div>
